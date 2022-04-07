@@ -1,5 +1,3 @@
-$('.two').click(
-    function(){
-        $('comic-pics').attr('src', 'images/robin2.png')
-    }
-)
+$('.one').click(function (){
+    $('animal-pic').attr('src', 'images/robin2.png')
+})
