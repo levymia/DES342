@@ -1,3 +1,9 @@
+/* Kepler Std Semibold Display
+font-family: kepler-std-display, serif;
+font-weight: 600;
+font-style: normal;
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -13,22 +19,48 @@ img {
 .homepage {
     height: 100vh;
     width: 130vw;
-    background: greenyellow;
+    background: #70FF00;
     display: grid;
     grid-template-columns:34% 33% 33%;
     color: white;
+    position: relative;
 }
 
 h2 {
     color: white;
+    font-family: kepler-std-display, serif;
+    font-weight: 600;
+    font-style: normal;
     align-items: start;
     font-size: 125px;
     padding-left: 70px;
+    margin-top: 50px;
+    white-space: nowrap;
+    position: absolute;
+    /* how do i make the text overlap the image */
 }
 
-.toc {
-    color: white;
-    font-size: 75px;
-    padding-left: 90px;
+ul { /* why does this not affect the toc? */
+    list-style-type: none;
+}
 
+.image1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.arrow-button {
+    width: 25%;
+    margin-bottom: -660px;
+    /* how do i properly align this to sit near the bottom */
+}
+
+.introduction {
+    height: 100vh;
+    width: 130vw;
+    background: #ea00ff;
+    display: grid;
+    grid-template-columns:34% 33% 33%;
+    color: white;
+    position: relative;
 }
