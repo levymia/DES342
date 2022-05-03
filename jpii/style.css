@@ -40,8 +40,12 @@ h2 {
     /* how do i make the text overlap the image */
 }
 
-ul { /* why does this not affect the toc? */
+.toc { /* why does this not affect the toc? */
     list-style-type: none;
+    color: white;
+    font-family: kepler-std-display, serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .image1 {
