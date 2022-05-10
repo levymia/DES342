@@ -14,16 +14,24 @@ font-style: normal;
 }
 
 main {
-
-
+    display: grid;
+    grid-template-columns: 120vw 2vw 100vw 50vw 120vw;
 }
 
 body {
     margin: 0;
 }
 
+nav {
+    background-color: black;
+}
+
 img {
     width: 100%;
+}
+
+ol {
+    list-style-type: none;
 }
 
 .homepage {
@@ -58,9 +66,17 @@ h2 {
     font-style: normal;
 }
 
+.toc a {
+    color: white;
+}
+
+.toc li {
+    color: white;
+}
+
 .image1 {
     height: 100vh;
-    width: 100vw;
+    width: auto;
 }
 
 .arrow-button {
@@ -77,4 +93,19 @@ h2 {
     grid-template-columns:34% 33% 33%;
     color: white;
     position: relative;
+}
+
+section:nth-child(1) {
+    background-color: #70FF00;
+    color: white;
+}
+
+section:nth-child(2) {
+    background-color: #fff;
+    color: black;
+}
+
+section:nth-child(3) {
+    background-color: #000;
+    color: white;
 }
