@@ -80,22 +80,24 @@ h4 {
     font-style: normal;
 
 }
-.column1 {
+.homepage .column1 {
   z-index: 2;
 }
-.column2 {
+
+.homepage .column2 {
   z-index: 1;
 }
+
+.arrow-button {
+    z-index: 3;
+    width: 25%;
+    margin-top: 500px;
+}
+
 .image1 {
   height: 100vh;
   width: auto;
   z-index: 0;
-}
-
-.arrow-button {
-  width: 25%;
-  margin-bottom: -660px;
-  /* how do i properly align this to sit near the bottom */
 }
 
 .introduction {
@@ -113,7 +115,7 @@ h4 {
     font-family: kepler-std-display, serif;
     font-weight: 600;
     margin-top: 500px;
-    margin-left: 350px
+    margin-left: 50px
 }
 
 .introduction .image2 {
