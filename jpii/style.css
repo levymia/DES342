@@ -58,6 +58,14 @@ h2 {
     /* how do i make the text overlap the image */
 }
 
+h3 {
+    /* h3=nav bar */
+}
+
+h4 {
+    /* h4=pull quote */
+}
+
 .toc { /* why does this not affect the toc? */
     list-style-type: none;
     color: white;
