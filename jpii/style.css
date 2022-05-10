@@ -10,71 +10,102 @@ font-style: normal;
 */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 main {
-
-
+  display: grid;
+  grid-template-columns: 120vw 2vw 100vw 50vw 120vw;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
-
+nav {
+  background-color: black;
+}
 img {
-    width: 100%;
+  width: 100%;
 }
-
+ol {
+  list-style-type: upper-roman;
+}
 .homepage {
-    height: 100vh;
-    width: 130vw;
-    background: #70FF00;
-    display: grid;
-    grid-template-columns:34% 33% 33%;
-    color: white;
-    position: relative;
+  height: 100vh;
+  width: 130vw;
+  background: #70ff00;
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+  color: white;
+  position: relative;
+}
+.toc a {
+  color: white;
+}
+.toc li {
+  color: white;
 }
 
 h2 {
-    color: white;
-    font-family: kepler-std-display, serif;
-    font-weight: 600;
-    font-style: normal;
-    align-items: start;
-    font-size: 125px;
-    padding-left: 70px;
-    margin-top: 50px;
-    white-space: nowrap;
-    position: absolute;
-    /* how do i make the text overlap the image */
+  color: white;
+  font-family: kepler-std-display, serif;
+  font-weight: 600;
+  font-style: normal;
+  align-items: start;
+  font-size: 125px;
+  padding-left: 70px;
+  margin-top: 50px;
+  white-space: nowrap;
+  z-index: 2;
+
+  /* how do i make the text overlap the image */
 }
 
-.toc { /* why does this not affect the toc? */
-    list-style-type: none;
-    color: white;
-    font-family: kepler-std-display, serif;
-    font-weight: 600;
-    font-style: normal;
+.toc {
+  /* why does this not affect the toc? */
+  list-style-type: none;
+  color: white;
+  font-family: kepler-std-display, serif;
+  font-weight: 600;
+  font-style: normal;
 }
-
+.column1 {
+  z-index: 2;
+}
+.column2 {
+  z-index: 1;
+}
 .image1 {
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: auto;
+  z-index: 0;
 }
 
 .arrow-button {
-    width: 25%;
-    margin-bottom: -660px;
-    /* how do i properly align this to sit near the bottom */
+  width: 25%;
+  margin-bottom: -660px;
+  /* how do i properly align this to sit near the bottom */
 }
 
 .introduction {
-    height: 100vh;
-    width: 130vw;
-    background: #ea00ff;
-    display: grid;
-    grid-template-columns:34% 33% 33%;
-    color: white;
-    position: relative;
+  height: 100vh;
+  width: 130vw;
+  background: #ea00ff;
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+  color: white;
+  position: relative;
+}
+
+section:nth-child(1) {
+  background-color: #70ff00;
+  color: #fff;
+}
+section:nth-child(2) {
+  background-color: #fff;
+  color: #000;
+}
+section:nth-child(3) {
+  background-color: #000;
+  color: #fff;
 }
