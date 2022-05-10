@@ -24,12 +24,14 @@ body {
 nav {
   background-color: black;
 }
+
 img {
   width: 100%;
 }
 ol {
-  list-style-type: upper-roman;
+  list-style-type: none;
 }
+
 .homepage {
   height: 100vh;
   width: 130vw;
@@ -99,13 +101,15 @@ h2 {
 
 section:nth-child(1) {
   background-color: #70ff00;
-  color: #fff;
+  color: white;
 }
+
 section:nth-child(2) {
   background-color: #fff;
-  color: #000;
+  color: black;
 }
+
 section:nth-child(3) {
   background-color: #000;
-  color: #fff;
+  color: white;
 }
