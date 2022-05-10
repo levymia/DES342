@@ -103,6 +103,31 @@ h4 {
     position: relative;
 }
 
+.early-life  {
+    height:100vh;
+    width:130vw;
+    background:#000;
+    display:grid;
+    grid-template-columns: 24% 19% 19% 19% 19%;
+    grid-gap:40px;
+    width:100vw;
+    color: #fff;
+    align-items:end;
+}
+
+.early-life h1 {
+    color:lime;
+    font-size:300%;
+    margin:0;
+    align-items:start;
+    margin-left:-100px;
+}
+.early-life .image9 {
+    margin-left:-80px;
+    margin-bottom: -80px;
+    padding:20px;
+}
+
 section:nth-child(1) {
     background-color: #70FF00;
     color: white;
