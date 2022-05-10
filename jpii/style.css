@@ -109,6 +109,14 @@ h4 {
   position: relative;
 }
 
+.introduction .column1 {
+
+}
+
+.introduction .column2 {
+    background-color: #000;
+}
+
 .introduction h1 {
     color:lime;
     font-size:185px;
