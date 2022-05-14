@@ -102,15 +102,12 @@ h4 {
 
 .introduction {
   height: 100vh;
+  width: 423vw;
   background: #fff;
   display: grid;
   grid-template-columns: 100vw 80vw 133vw 110vw;
   color: white;
   position: relative;
-}
-
-.introduction .column1 {
-
 }
 
 .introduction .column2 {
@@ -129,22 +126,12 @@ h4 {
 .introduction .image2 {
     height: auto; 
     width: auto; 
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
-    margin-left:-80px;
-    margin-bottom: -80px;
     padding:20px;
 }
 
 .introduction .image3 {
     height: auto; 
     width: auto; 
-    height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
     margin-left:-80px;
     margin-bottom: -80px;
     padding:20px;
@@ -164,15 +151,31 @@ h4 {
 
 .early-life h1 {
     color:lime;
-    font-size:300%;
+    font-size:185px;
     margin:0;
     align-items:start;
-    margin-left:-100px;
+    margin-left:-500px;
 }
 .early-life .image9 {
-    margin-left:-80px;
+    margin-left:-150px;
     margin-bottom: -80px;
     padding:20px;
+}
+
+.early-life .image10 {
+  margin-left: -80px;
+  margin-bottom: -50px;
+}
+
+.early-life, p {
+font: Aktiv Grotesk Medium;
+font-family: aktiv-grotesk, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.early-life .column6 {
+  background:#70ff00;
 }
 
 /* .introduction div:nth-child(1) { /*update this with introduction
