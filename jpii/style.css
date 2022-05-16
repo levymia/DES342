@@ -88,6 +88,13 @@ h4 {
 .introduction .column2 {
   z-index: 1;
 }
+
+.arrow-button {
+    z-index: 3;
+    width: 25%;
+    margin-top: 500px;
+}
+
 .image1 {
   height: 100vh;
   width: auto;
