@@ -15,7 +15,9 @@ font-style: normal;
 
 main {
   display: grid;
-  grid-template-columns: 120vw 2vw 100vw 50vw 120vw;
+  /* */
+  grid-template-columns: 120vw 100vw 60vw 100vw 120vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
+  height: 100vh;
 }
 
 body {
@@ -23,23 +25,23 @@ body {
 }
 nav {
   background-color: black;
+  writing-mode: vertical-rl;
 }
 
-img {
-  width: 100%;
-}
 ol {
   list-style-type: none;
 }
 
 .homepage {
-  height: 100vh;
-  width: 130vw;
   background: #70ff00;
   display: grid;
   grid-template-columns: 34% 33% 33%;
   color: white;
   position: relative;
+}
+.image3 {
+  height: 100vh;
+  width: auto;
 }
 .toc a {
   color: white;
@@ -64,25 +66,26 @@ h2 {
 }
 
 h3 {
-    /* h3=nav bar */
+  /* h3=nav bar */
 }
 
 h4 {
-    /* h4=pull quote */
+  /* h4=pull quote */
 }
 
-.toc { /* why does this not affect the toc? */
-    list-style-type: none;
-    color: white;
-    font-family: kepler-std-display, serif;
-    font-weight: 600;
-    font-style: normal;
-
+.toc {
+  /* why does this not affect the toc? */
+  list-style-type: none;
+  color: white;
+  font-family: kepler-std-display, serif;
+  font-weight: 600;
+  font-style: normal;
 }
-.column1 {
+.introduction .column1 {
   z-index: 2;
+  grid-column: 1/3;
 }
-.column2 {
+.introduction .column2 {
   z-index: 1;
 }
 .image1 {
@@ -90,7 +93,14 @@ h4 {
   width: auto;
   z-index: 0;
 }
-
+.intro2 {
+  background: #000;
+  color: #fff;
+}
+.intro3 {
+  background: #fff;
+  color: #000;
+}
 .arrow-button {
   width: 25%;
   margin-bottom: -660px;
@@ -98,51 +108,63 @@ h4 {
 }
 
 .introduction {
-  height: 100vh;
-  width: 130vw;
-  background: #ea00ff;
+  background-color: #fff;
+  color: black;
   display: grid;
-  grid-template-columns: 34% 33% 33%;
-  color: white;
+  grid-template-columns: repeat(5, 20%);
   position: relative;
 }
 
-.early-life  {
-    height:100vh;
-    width:130vw;
-    background:#000;
-    display:grid;
-    grid-template-columns: 24% 19% 19% 19% 19%;
-    grid-gap:40px;
-    width:100vw;
-    color: #fff;
-    align-items:end;
+.early-life {
+  background: #000;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 40px;
+  width: 100vw;
+  color: #fff;
+  align-items: end;
 }
 
 .early-life h1 {
-    color:lime;
-    font-size:300%;
-    margin:0;
-    align-items:start;
-    margin-left:-100px;
+  color: lime;
+  font-size: 300%;
+  margin: 0;
+  align-items: start;
+  margin-left: -100px;
+  grid-column: 1/3;
 }
 .early-life .image9 {
-    margin-left:-80px;
-    margin-bottom: -80px;
-    padding:20px;
+  margin-left: -80px;
+  margin-bottom: -80px;
+  padding: 20px;
 }
-
-section:nth-child(1) {
-  background-color: #70ff00;
-  color: white;
+.early2 {
+  background: #000;
+  color: #fff;
 }
-
-section:nth-child(2) {
-  background-color: #fff;
-  color: black;
+.early3 {
+  background: lime;
 }
-
-section:nth-child(3) {
-  background-color: #000;
-  color: white;
+.early4 {
+  background: #fff;
+  color: #000;
+}
+.priesthood {
+  color: lime;
+}
+.priest2 {
+  background: #fff;
+  color: #000;
+}
+.priest3 {
+  background: lime;
+  color: #fff;
+}
+.papacy {
+  background: #fff;
+  color: #000;
+}
+.papacy2 {
+  background: #000;
+  color: #fff;
 }
