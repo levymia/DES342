@@ -15,7 +15,7 @@ font-style: normal;
 
 main {
   display: grid;
-  /* */
+  /* HOMEPAGE 120 - INTRODUCTION 100, 60, 100 - EARLY LIFE 120, 100, 100, 100 - - */
   grid-template-columns: 120vw 100vw 60vw 100vw 120vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw 100vw;
   height: 100vh;
 }
