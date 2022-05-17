@@ -118,8 +118,25 @@ h4 {
   background-color: #fff;
   color: black;
   display: grid;
-  grid-template-columns: repeat(5, 20%);
   position: relative;
+  height: 100vw
+}
+
+.introduction, h1 {
+  color:#70ff00;
+  font-size: 125px;
+  align-items: end;
+  padding-bottom: -45px;
+  padding-left: 45px;
+  z-index: 2;
+}
+
+.introduction .image2 {
+  z-index: 1;
+  margin-right: 200px;
+  padding-bottom: 100px;
+  
+  
 }
 
 .early-life {
@@ -159,6 +176,7 @@ h4 {
 .priesthood {
   color: lime;
 }
+
 .priest2 {
   background: #fff;
   color: #000;
@@ -174,4 +192,24 @@ h4 {
 .papacy2 {
   background: #000;
   color: #fff;
+}
+
+.teachings {
+  background: #fff;
+  color: #000;
+}
+
+.teachings2 {
+  background: #70ff00;
+  color: black;
+}
+
+.death {
+  background: white;
+  color: black;
+}
+
+.legacy .legacy2 {
+  background: black;
+  color: white;
 }
