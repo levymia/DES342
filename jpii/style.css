@@ -17,8 +17,9 @@ main {
   display: grid;
   /* HOMEPAGE 120 - INTRODUCTION 100, 60, 100 - EARLY LIFE 120, 220, 100, 100 - 
   PRIESTHOOD 100, 120, 100 - PAPACY 200, 150 - TEACHINGS 200, 200, 320 - LEGACY 120, 250 */
-  grid-template-columns: 120vw 100vw 60vw 100vw 120vw 220vw 100vw 100vw 100vw 120vw 
-  100vw 200vw 150vw 200vw 200vw 320vw 120vw 250vw;
+  grid-template-columns:
+    120vw 100vw 60vw 100vw 120vw 220vw 100vw 100vw 100vw 120vw
+    100vw 200vw 150vw 200vw 200vw 320vw 120vw 250vw;
   height: 100vh;
 }
 
@@ -34,7 +35,7 @@ p {
   font-family: aktiv-grotesk, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 125px; 
+  font-size: 125px;
 }
 
 ol {
@@ -51,6 +52,14 @@ ol {
 .image3 {
   height: 100vh;
   width: auto;
+}
+.homepage h2 {
+  position: absolute;
+  top: 0;
+  right: 30vw;
+}
+.homepage .toc {
+  z-index: 1;
 }
 .toc a {
   color: white;
@@ -99,9 +108,9 @@ h4 {
 }
 
 .arrow-button {
-    z-index: 3;
-    width: 25%;
-    margin-top: 500px;
+  z-index: 3;
+  width: 25%;
+  margin-top: 500px;
 }
 
 .image1 {
@@ -115,21 +124,20 @@ h4 {
   color: #fff;
 }
 
-.intro2, p {
-font-size: 25px;
-text-align: justify;
-padding-left: 180px;
-padding-right: 50px;
-padding-top: 20px;
+.intro2,
+p {
+  font-size: 25px;
+  text-align: justify;
+  padding-left: 180px;
+  padding-right: 50px;
+  padding-top: 20px;
 }
 
 .intro3 {
   background: #fff;
   color: #000;
-  grid-template-columns: 33% 33% 33%; 
+  grid-template-columns: 33% 33% 33%;
 }
-
-
 
 .arrow-button {
   width: 25%;
@@ -142,11 +150,12 @@ padding-top: 20px;
   color: black;
   display: grid;
   position: relative;
-  height: 100vw
+  height: 100vw;
 }
 
-.introduction, h1 {
-  color:#70ff00;
+.introduction,
+h1 {
+  color: #70ff00;
   font-size: 125px;
   align-items: end;
   margin-bottom: 15px;
@@ -158,12 +167,10 @@ padding-top: 20px;
   z-index: 1;
   margin-right: 200px;
   padding-bottom: 100px;
-  
-  
 }
 
 .early-life h1 {
-  color:#70ff00;
+  color: #70ff00;
   font-size: 125px;
   margin: 0;
   align-items: start;
@@ -191,17 +198,15 @@ padding-top: 20px;
 }
 
 .early3 {
-  background:#70ff00
+  background: #70ff00;
 }
 
 .early3 .image12 {
   z-index: 1;
-
 }
 
 .early3 .image13 {
   z-index: -1;
-
 }
 
 .early4 {
