@@ -231,6 +231,8 @@ padding-top: 20px;
 .teachings2 {
   background: #70ff00;
   color: black;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 40;
 }
 
 .death {
