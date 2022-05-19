@@ -126,7 +126,7 @@ padding-top: 20px;
 .intro3 {
   background: #fff;
   color: #000;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%; 
 }
 
 
@@ -149,7 +149,7 @@ padding-top: 20px;
   color:#70ff00;
   font-size: 125px;
   align-items: end;
-  padding-bottom: -45px;
+  margin-bottom: 15px;
   padding-left: 45px;
   z-index: 2;
 }
@@ -191,8 +191,19 @@ padding-top: 20px;
 }
 
 .early3 {
-  background: lime;
+  background:#70ff00
 }
+
+.early3 .image12 {
+  z-index: 1;
+
+}
+
+.early3 .image13 {
+  z-index: -1;
+
+}
+
 .early4 {
   background: #fff;
   color: #000;
