@@ -21,9 +21,9 @@ font-style: normal;
 main {
   display: grid;
   /* HOMEPAGE 120 - INTRODUCTION 100, 60, 100 - EARLY LIFE 120, 220, 100, 100 - 
-  PRIESTHOOD 100, 120, 100 - PAPACY 200, 150 - TEACHINGS 200, 200, 320 - LEGACY 120, 250 */
+  PRIESTHOOD 100, 230, 100 - PAPACY 200, 150 - TEACHINGS 200, 200, 320 - LEGACY 120, 250 */
   grid-template-columns:
-    120vw 100vw 60vw 100vw 120vw 220vw 100vw 100vw 100vw 120vw
+    120vw 100vw 60vw 100vw 120vw 220vw 100vw 100vw 100vw 230vw
     100vw 200vw 150vw 200vw 200vw 320vw 120vw 250vw;
   height: 100vh;
 }
@@ -256,14 +256,14 @@ margin-top: 100px;
 }
 
 .early3 .image12 {
-  position: absolute;
+  position: relative;
   z-index: 1;
   width: 532px;
   height: 506px;
 }
 
 .early3 .image13 {
-  position: absolute;
+  position: relative;
   z-index: -1;
   width: 1019px;
   height: 902px;
@@ -295,23 +295,34 @@ margin-top: 100px;
 .priest2 {
   background: #fff;
   color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .priest3 {
   background: lime;
   color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .papacy {
   background: #fff;
   color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
+
 .papacy2 {
   background: #000;
   color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .teachings {
   background: #fff;
   color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .teachings2 {
@@ -324,9 +335,16 @@ margin-top: 100px;
 .death {
   background: white;
   color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .legacy .legacy2 {
   background: black;
   color: white;
+}
+
+.legacy2 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
