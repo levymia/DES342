@@ -1,9 +1,4 @@
-/* Kepler Std Semibold Display
-font-family: kepler-std-display, serif;
-font-weight: 600;
-font-style: normal;
-
-Aktiv Grotesk Medium
+/* Aktiv Grotesk Medium
 font-family: aktiv-grotesk, sans-serif;
 font-weight: 500;
 font-style: normal;
@@ -59,14 +54,17 @@ ol {
   height: 100vh;
   width: auto;
 }
+
 .homepage h2 {
   position: absolute;
   top: 0;
   right: 33vw;
 }
+
 .homepage .toc {
   margin-top: 40vh;
 }
+
 .toc a {
   color: white;
   text-decoration: none;
@@ -86,10 +84,6 @@ h2 {
   margin-top: 50px;
   white-space: nowrap;
   z-index: 2;
-}
-
-h3 {
-  /* h3=nav bar */
 }
 
 blockquote {
@@ -211,14 +205,6 @@ p {
   margin-left: 1000px;
 }
 
-.early-life image6 {
-
-}
-
-.early-life image7 {
-
-}
-
 .early2 .image9 {
   margin-left: -80px;
   margin-bottom: -80px;
@@ -292,9 +278,6 @@ margin-top: 100px;
   font-size: 125px;
 }
 
-.priesthood1 {
-}
-
 .priesthood h1 {
   font-family: swashingtoncp;
 }
@@ -311,7 +294,6 @@ margin-top: 100px;
   color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
 
 .papacy {
