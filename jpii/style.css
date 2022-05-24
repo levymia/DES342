@@ -79,7 +79,6 @@ ol {
 h2 {
   color: white;
   font-family: swashingtoncp, serif;
-  font-weight: 600;
   font-style: normal;
   align-items: start;
   font-size: 110px;
@@ -103,7 +102,6 @@ blockquote {
   list-style-type: none;
   color: white;
   font-family: swashingtoncp, serif;
-  font-weight: 600;
   font-style: normal;
   font-size: 40px;
   padding-left: 70px;
