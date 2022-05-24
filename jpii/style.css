@@ -9,6 +9,11 @@ font-weight: 500;
 font-style: normal;
 */
 
+@font-face {
+  font-family: "SwashingtonCP";
+  src: url("../font/SwashingtonCP.otf") format("opentype");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -49,6 +54,7 @@ ol {
   color: white;
   position: relative;
 }
+
 .image3 {
   height: 100vh;
   width: auto;
@@ -56,7 +62,7 @@ ol {
 .homepage h2 {
   position: absolute;
   top: 0;
-  right: 30vw;
+  right: 33vw;
 }
 .homepage .toc {
   margin-top: 40vh;
@@ -72,17 +78,15 @@ ol {
 
 h2 {
   color: white;
-  font-family: kepler-std-display, serif;
+  font-family: swashingtoncp, serif;
   font-weight: 600;
   font-style: normal;
   align-items: start;
-  font-size: 125px;
+  font-size: 110px;
   padding-left: 70px;
   margin-top: 50px;
   white-space: nowrap;
   z-index: 2;
-
-  /* how do i make the text overlap the image */
 }
 
 h3 {
@@ -90,7 +94,7 @@ h3 {
 }
 
 blockquote {
-  /* h4=pull quote */
+  font-family: swashingtoncp;
   font-size: 90px;
   margin: 0;
 }
@@ -98,9 +102,12 @@ blockquote {
 .toc {
   list-style-type: none;
   color: white;
-  font-family: kepler-std-display, serif;
+  font-family: swashingtoncp, serif;
   font-weight: 600;
   font-style: normal;
+  font-size: 40px;
+  padding-left: 70px;
+  padding-bottom: -100px; /* how do I scoot this up? */
 }
 
 .arrow-button {
@@ -147,19 +154,24 @@ p {
 
 .introduction h1 {
   color: #70ff00;
+  font-family: swashingtoncp;
   font-size: 125px;
   grid-column: 1/3;
   z-index: 5;
   padding-left: 10vw;
+  /* how to move things without messing everything up */
 }
 
 .introduction .image2 {
   z-index: 2;
   margin-top: -60vh;
+  margin-left: 20vw;
 }
 .introduction .image3 {
   z-index: 2;
+  height: 80vh;
   margin-top: -120vh;
+  margin-left: 10vw;
 }
 
 .intro3 {
@@ -173,9 +185,11 @@ p {
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
 }
+
 .intro3 img {
   width: 60%;
 }
+
 .intro3 .images {
   position: absolute;
   right: -30vw;
@@ -185,12 +199,26 @@ p {
 .intro3 .image4 {
   padding-bottom: 5vh;
 }
+
+.early-life .images {
+  position: absolute;
+}
+
 .early-life h1 {
   color: #70ff00;
+  font-family: swashingtoncp;
   font-size: 125px;
   margin: 0;
   align-items: start;
   margin-left: 1000px;
+}
+
+.early-life image6 {
+
+}
+
+.early-life image7 {
+
 }
 
 .early2 .image9 {
@@ -198,12 +226,15 @@ p {
   margin-bottom: -80px;
   padding: 20px;
 }
+
 .early2 {
   background: #000;
   color: #fff;
   display: grid;
   grid-template-columns: 24% 19% 19% 19% 19%;
   grid-gap: 40px;
+  padding-top: 10vh;
+  padding-left: 50vw;
   align-items: end;
 }
 
@@ -213,16 +244,29 @@ p {
   align-items: top;
 }
 
+.image10 {
+margin-left: -140px;
+margin-top: 100px;
+
+}
+
 .early3 {
   background: #70ff00;
+  align-items: end;
 }
 
 .early3 .image12 {
+  position: absolute;
   z-index: 1;
+  width: 532px;
+  height: 506px;
 }
 
 .early3 .image13 {
+  position: absolute;
   z-index: -1;
+  width: 1019px;
+  height: 902px;
 }
 
 .early4 {
@@ -230,12 +274,22 @@ p {
   color: #000;
   font-size: 25px;
   text-align: justify;
-  grid-template: 50% 50%;
+  display: grid;
+  grid-template: 1fr 1fr;
   grid-gap: 40;
 }
 
 .priesthood {
   color: lime;
+  
+}
+
+.priesthood .priesthood1 {
+  height: 100vh;
+}
+
+.priesthood h1 {
+  font-family: swashingtoncp;
 }
 
 .priest2 {
