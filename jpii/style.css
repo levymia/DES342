@@ -189,23 +189,31 @@ p {
   top: 5vh;
   width: 40vw;
 }
+.intro3 .column5 {
+  width: 80vw;
+  padding-right: 40px;
+}
 .early-life .column8 {
   position: absolute;
-  left: -5vw;
   top: 5vh;
+  left: 5vw;
   width: 40vw;
 }
+
 .early-life .column8 img {
   width: 60%;
+  z-index: 2;
 }
 .intro3 .image4,
 .early-life .image6 {
   padding-bottom: 5vh;
-  
 }
 .early-life {
   position: relative;
   max-height: 100vh;
+  background-image: url('images/image8.png');
+  background-size: cover;
+  z-index: -1;
 }
 .early-life images {
   position: absolute;
