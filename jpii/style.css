@@ -196,7 +196,7 @@ p {
 .early-life .column8 {
   position: absolute;
   top: 5vh;
-  left: 5vw;
+  left: 17vw;
   width: 40vw;
 }
 
@@ -215,6 +215,18 @@ p {
   background-size: cover;
   z-index: -1;
 }
+
+.early-life {
+  /*width: 100vw;*/
+}
+.early-life .image8 {
+  /* width: 1631px;
+  height: 982px;
+  align-items: top; */
+  position: absolute;
+  z-index: 1;
+}
+
 .early-life images {
   position: absolute;
 }
@@ -246,16 +258,6 @@ p {
 }
 .early2 .image9 {
   margin-left: -120px;
-  position: absolute;
-  z-index: 1;
-}
-.early-life {
-  width: 100vw;
-}
-.early-life .image8 {
-  /* width: 1631px;
-  height: 982px;
-  align-items: top; */
   position: absolute;
   z-index: 1;
 }
