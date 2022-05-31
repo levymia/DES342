@@ -308,18 +308,21 @@ p {
   align-items: end;
 }
 
-.early3 .image12 {
+.early3 .couple-lake {
   position: relative;
   z-index: 1;
   width: 532px;
   height: 506px;
+  top: 90px;
+  left: 50px;
 }
 
-.early3 .image13 {
+.early3 .pillars {
   position: relative;
-  z-index: -1;
   width: 1019px;
   height: 902px;
+  top: -450px;
+  left: 350px
 }
 
 .early4 {
@@ -333,6 +336,11 @@ p {
   padding: 5vh 5vw 0 28vw;
 }
 
+early4 p {
+  position: relative;
+  left: -100px;
+}
+
 .priesthood {
   color: lime;
   position: relative;
@@ -340,11 +348,13 @@ p {
 }
 
 .priesthood h1 {
-  position: absolute;
+  position: relative;
+  top: -775px;
+  /*position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 125px;
+  font-size: 125px; */
 }
 
 .priesthood h1 {
@@ -424,11 +434,13 @@ p {
 }
 
 .legacy h1 {
-  position: absolute;
+  position: relative;
+  top: -775px;
+  /*position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  bottom: -200px;
+  bottom: -200px;*/
   font-family: 'SwashingtonCP';
   font-size: 125px;
 }
