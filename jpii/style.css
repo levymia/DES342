@@ -337,10 +337,12 @@ p {
   padding: 5vh 5vw 0 28vw;
 }
 
-early4 p {
+.early4 p {
   position: relative;
-  left: -100px;
+  left: -160px;
 }
+
+
 
 .priesthood1 {
   color: lime;
