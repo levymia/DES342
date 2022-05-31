@@ -370,7 +370,7 @@ early4 p {
 .priesthood2{
   position: relative;
   width: 30%;
-  left: 270px;
+  left: 350px;
   top: 100px;
   z-index: 100;
 }
@@ -380,12 +380,16 @@ early4 p {
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   position: relative;
-  left: -60px;
+  padding-left: 150px;
+  padding-right: 150px;
+  left: 100px;
+  bottom: -80px;
 }
 
 .priesthood3 {
   position: relative;
-  top: 172px;
+  top: 250px;
+  left: 300px;
 }
 
 .priesthood5 {
@@ -424,10 +428,13 @@ early4 p {
 
 .priest2 blockquote {
   position: relative;
-  
-}
+  left: -60px;
+  margin: 0;
+  font-size: 90px;
+  top: 60px;
+} /* how to span the text so i can keep it at 90px*/
 
-.papacy {
+/*papacy section 1*/ .papacy {
   background: #fff;
   color: #000;
   display: grid;
@@ -437,11 +444,32 @@ early4 p {
 
 .papacy h1 {
   font-family: 'SwashingtonCP';
-  font-size: 125px;
+  font-size: 190px;
   color: #70ff00;
+  font-weight: 400;
+  position: relative;
+  left: 300px;
+  top: 240px;
 }
 
-.papacy2 {
+.papacy .col2 p {
+  padding-right: 120px;
+  position: relative;
+  left: 200px;
+}
+
+.papacy .col3 p {
+  padding-left: 119px;
+}
+
+/*papacy image 1*/ .pap1 {
+  width: 100%;
+  position: relative;
+  top: 120px;
+  left: 190px;
+}
+
+/*papacy section 2*/ .papacy2 {
   background: #000;
   color: #fff;
   display: grid;
