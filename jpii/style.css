@@ -270,6 +270,7 @@ p {
   padding-bottom: 60px;
   max-height: 100vh;
   padding-right: 100px;
+  z-index: -3;
 }
 .early2 div.img-col {
   height: 30vh;
@@ -341,13 +342,15 @@ early4 p {
   left: -100px;
 }
 
-.priesthood {
+.priesthood1 {
   color: lime;
   position: relative;
   text-align: center;
+  top: -80px;
 }
 
 .priesthood h1 {
+  font-family: 'SwashingtonCP';
   position: relative;
   top: -775px;
   /*position: absolute;
@@ -357,22 +360,71 @@ early4 p {
   font-size: 125px; */
 }
 
-.priesthood h1 {
-  font-family: 'SwashingtonCP';
-}
-
 .priest2 {
   background: #fff;
   color: #000;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 40% 40% 20%;
+}
+
+.priesthood2{
+  position: relative;
+  width: 30%;
+  left: 270px;
+  top: 100px;
+  z-index: 100;
+}
+
+.flex2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  position: relative;
+  left: -60px;
+}
+
+.priesthood3 {
+  position: relative;
+  top: 172px;
+}
+
+.priesthood5 {
+  position: relative;
+  z-index: 1;
+  left: 100px;
+  top: 170px;
 }
 
 .priest3 {
   background: lime;
   color: #fff;
+}
+
+.priest3 p {
+  position: relative;
+  z-index: 2;
+}
+
+.flex3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  position: relative;
+  top: -500px;
+  left: 220px;
+  width: 70%;
+}
+
+.priesthood4 {
+  position: relative;
+  width: 80%;
+  left: 65px;
+  top: 45px;
+}
+
+.priest2 blockquote {
+  position: relative;
+  
 }
 
 .papacy {
