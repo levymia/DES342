@@ -455,13 +455,14 @@ p {
 }
 
 .papacy .col2 p {
-  padding-right: 120px;
+  padding-right: 245px;
   position: relative;
   left: 200px;
 }
 
 .papacy .col3 p {
-  padding-left: 119px;
+  padding-left: 3px;
+  padding-right: 241px;
 }
 
 /*papacy image 1*/ .pap1 {
@@ -475,8 +476,23 @@ p {
   background: #000;
   color: #fff;
   display: grid;
+}
+
+.flex4 {
+  display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 451px;
+  padding-right: 366px;
+  padding-top: 470px;
   grid-gap: 40px;
+}
+
+.pap2 {
+  position: relative;
+}
+
+.pap3 {
+  position: relative;
 }
 
 .teachings {
