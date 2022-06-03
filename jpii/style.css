@@ -19,7 +19,7 @@ main {
   PRIESTHOOD 100, 230, 100 - PAPACY 200, 150 - TEACHINGS 200, 200, 320 - LEGACY 120, 250 */
   grid-template-columns:
     120vw 100vw 60vw 100vw 120vw 220vw 100vw 100vw 100vw 230vw
-    100vw 200vw 150vw 200vw 200vw 320vw 120vw 250vw;
+    100vw 150vw 150vw 200vw 200vw 320vw 120vw 250vw;
   max-height: 100vh;
 }
 
@@ -256,8 +256,12 @@ p {
   font-weight:400;
   position: absolute;
   top: -100px;
-  right: -200px;
+  right: -247px;
   z-index: 90;
+}
+
+.image11 {
+  padding-left: 50px;
 }
 
 .early2 {
@@ -455,14 +459,16 @@ p {
 }
 
 .papacy .col2 p {
-  padding-right: 245px;
+  padding-right: 0px;
   position: relative;
   left: 200px;
 }
 
 .papacy .col3 p {
   padding-left: 3px;
-  padding-right: 241px;
+  padding-right: 0px;
+  position: relative;
+  left: 270px;
 }
 
 /*papacy image 1*/ .pap1 {
