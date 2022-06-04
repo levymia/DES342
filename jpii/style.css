@@ -454,28 +454,28 @@ p {
   color: #70ff00;
   font-weight: 400;
   position: relative;
-  left: 300px;
+  left: 180px;
   top: 240px;
 }
 
 .papacy .col2 p {
   padding-right: 0px;
   position: relative;
-  left: 200px;
+  left: -28px;
 }
 
 .papacy .col3 p {
   padding-left: 3px;
   padding-right: 0px;
   position: relative;
-  left: 270px;
+  left: 14px;
 }
 
 /*papacy image 1*/ .pap1 {
-  width: 100%;
+  width: 150%;
   position: relative;
-  top: 120px;
-  left: 190px;
+  top: 243px;
+  left: 152px;
 }
 
 /*papacy section 2*/ .papacy2 {
@@ -495,10 +495,17 @@ p {
 
 .pap2 {
   position: relative;
+  top: -845px;
+  left: 300px;
+  width: 60%;
 }
 
 .pap3 {
   position: relative;
+  width: 60%;
+  top: -624px;
+  left: 538px;
+  /* how to send to back*/
 }
 
 .teachings {
@@ -506,6 +513,30 @@ p {
   color: #000;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tea1 {
+  width: 100vh;    
+}
+
+.teachings h1 {
+  color: #70ff00;
+  font-family: 'SwashingtonCP';
+  font-size: 190px;
+  font-weight: 400;
+  position: relative;
+  left: -309px;
+  top: -145px;
+}
+
+.flex5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  width: 120vw;
+  position: relative;
+  top: -60px;
+  left: 40px;
 }
 
 .teachings2 {
