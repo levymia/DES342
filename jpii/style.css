@@ -19,7 +19,7 @@ main {
   PRIESTHOOD 100, 230, 100 - PAPACY 200, 150 - TEACHINGS 200, 200, 320 - LEGACY 120, 250 */
   grid-template-columns:
     120vw 100vw 60vw 100vw 120vw 220vw 100vw 100vw 100vw 230vw
-    100vw 150vw 150vw 200vw 200vw 300vw 120vw 250vw;
+    100vw 150vw 150vw 200vw 200vw 300vw 120vw 220vw;
   max-height: 100vh;
 }
 
@@ -40,6 +40,9 @@ p {
 
 ol {
   list-style-type: none;
+  position: relative;
+  top: -57px;
+    left: 45px;
 }
 
 .homepage {
@@ -57,7 +60,7 @@ ol {
 
 .homepage h2 {
   position: absolute;
-  top: 0;
+  top: -15px;
   right: 33vw;
 }
 
@@ -348,7 +351,7 @@ p {
 
 
 
-.priesthood1 {
+#priesthood {
   color: lime;
   position: relative;
   text-align: center;
@@ -622,17 +625,19 @@ p {
 .death .col4 {
   padding-right: 155px;
   position: relative;
-  left: -194px;
+  left: -165px;
 }
 
 .dea2 {
   position: relative;
   height: 38vh;
-
+  top: 40px;
 }
 
 .dea3 {
   position: relative;
+  width: 54.5%;
+  top: 86px;
 }
 
 .legacy .legacy2 {
@@ -648,7 +653,7 @@ p {
 
 .legacy h1 {
   position: relative;
-  top: -775px;
+  top: -847px;
   /*position: absolute;
   top: 50%;
   left: 50%;
@@ -656,6 +661,8 @@ p {
   bottom: -200px;*/
   font-family: 'SwashingtonCP';
   font-size: 125px;
+  font-weight: 400;
+
 }
 
 .legacy2 {
@@ -663,4 +670,32 @@ p {
   color: white;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+}
+
+.legacy2 .col1 {
+  position: relative;
+    top: 40px;
+    left: 50px;
+    padding-left: 200px;
+    padding-right: 175px;
+}
+
+.legacy2 .col2 {
+  position: relative;
+  top: 40px;
+  left: -76px;
+  padding-right: 371px;
+}
+
+.leg2 {
+  position: relative;
+  top: 86px;
+  left: -250px;
+}
+
+.legacy2 .col3 {
+  position: relative;
+  top: 40px;
+  left: 11px;
+  padding-right: 368px;
 }
